@@ -12,5 +12,19 @@ public class ProductManager {
     
     public ProductManager() {
         System.out.println("Product Manager created.");
+        
+        
     }
+    /**
+     * This method calculates the discounted price
+     * after a certain percent.
+     */
+    
+        /**
+        * Calculates discount based on percentage.
+        */
+       public double calculateDiscount(double price, double percentage) {
+           return price - (price * percentage / 100);
+       }
+
 }
