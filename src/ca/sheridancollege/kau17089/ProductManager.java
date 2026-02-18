@@ -15,6 +15,10 @@ public class ProductManager {
         
         
     }
+    /**
+     * This method calculates the discounted price
+     * after a certain percent.
+     */
     
         /**
         * Calculates discount based on percentage.
